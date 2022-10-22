@@ -30,7 +30,6 @@ data class Response(
     val userTier: String?
 ): Serializable
 
-
 data class Result(
     @SerializedName("apiUrl")
     val apiUrl: String?,
